@@ -1,0 +1,23 @@
+{
+  "name": "FullStack",
+  "version": "0.0.0",
+  "homepage": "https://github.com/joverall22/FullStack",
+  "authors": [
+    "Jake Overall <joverall22@gmail.com>"
+  ],
+  "description": "Full Stack App with Node and Angular",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.2.21",
+    "bootstrap": "~3.2.0",
+    "angular-route": "~1.2.21"
+  }
+}

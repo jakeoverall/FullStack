@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" ng-app="myApp">
+<head>
+    <title>FullStack App</title>
+</head>
+    <body ng-controller="mainCtrl">
+        <div ng-repeat="link in nav"><a ng-href="#{{link.url}}">{{link.name}}</a></div>
+        <h1>Hello World</h1>
+        <div ng-view></div>
+        
+        
+        <scripts>
+            <script src="/bower_components/angular/angular.js"></script>
+            <script src="/bower_components/angular-route/angular-route.js"></script>
+            <script src="/public/js/app.js"></script>
+            
+            <!-- Service -->
+            <script src="/public/js/myDataService.js"></script>
+            
+            <!-- Controllers -->
+            <script src="/public/js/controllers/mainCtrl.js"></script>
+            <script src="/public/js/controllers/familyCtrl.js"></script>
+            <script src="/public/js/controllers/friendsCtrl.js"></script>
+            <script src="/public/js/controllers/meCtrl.js"></script>
+            <script src="/public/js/controllers/hobbies.js"></script>
+            
+
+        </scripts>
+
+    </body>
+</html>
